@@ -64,12 +64,19 @@ $('#analyze').onclick=()=>{
   const current=selected,isTest=$('#is-test').checked;
   $('#result-panel').innerHTML='<div class="loading"><div class="spinner"></div><h2>กำลังเตรียม AI ในอุปกรณ์</h2><p id="loading-text">ครั้งแรกอาจใช้เวลาสักครู่ ขึ้นกับอินเทอร์เน็ตและอุปกรณ์</p><div class="progress-track"><span id="progress"></span></div></div>';
   if(!worker)worker=new Worker(new URL('./ai-worker.js',import.meta.url),{type:'module'});
-  function failed(){setBusy(false);worker?.terminate();worker=null;$('#result-panel').innerHTML='<div class="empty-result"><h2>ยังวิเคราะห์ภาพไม่ได้</h2><p>ตรวจอินเทอร์เน็ตแล้วลองใหม่ หากเครื่องมีหน่วยความจำไม่พอ ให้ปิดแท็บอื่นหรือลองอุปกรณ์อีกเครื่อง</p></div>';}
-  worker.onerror=failed;
+  function failed(err){
+    console.error('AI processing error:', err);
+    setBusy(false);
+    worker?.terminate();
+    worker=null;
+    const msg = typeof err === 'string' ? err : (err?.message || '');
+    $('#result-panel').innerHTML='<div class="empty-result"><h2>ยังวิเคราะห์ภาพไม่ได้</h2><p>ตรวจอินเทอร์เน็ตแล้วลองใหม่ หากเครื่องมีหน่วยความจำไม่พอ ให้ปิดแท็บอื่นหรือลองอุปกรณ์อีกเครื่อง</p>' + (msg ? `<p class="note" style="color:#d9534f;margin-top:8px">สาเหตุ: ${escape(msg)}</p>` : '') + '</div>';
+  }
+  worker.onerror=(e)=>{failed(e?.message||'ไม่สามารถโหลด Web Worker ได้ กรุณาตรวจสอบการตั้งค่าเบราว์เซอร์');};
   worker.onmessage=({data})=>{
     if(data.type==='progress'){$('#progress')?.style.setProperty('width',`${Math.max(0,Math.min(100,data.value||0))}%`);}
     if(data.type==='ready'&&$('#loading-text')){$('#loading-text').textContent='กำลังวิเคราะห์ภาพ กรุณารอสักครู่';$('.loading h2').textContent='AI กำลังดูภาพของคุณ';}
-    if(data.type==='error'){console.error('Browser AI error:',data.message);failed();}
+    if(data.type==='error'){console.error('Browser AI error:',data.message);failed(data.message);}
     if(data.type==='result'){
       const row={...data.result,id:crypto.randomUUID(),created_at:new Date().toISOString(),image_id:current.hash,source:current.source,is_test:isTest?1:0};
       const stored=saveRow(row);showResult(data.result);if(!stored)$('#result-panel').insertAdjacentHTML('beforeend','<p class="error">แสดงผลสำเร็จ แต่บันทึกประวัติถาวรไม่ได้ กรุณาส่งออก CSV ก่อนปิดหน้าเว็บ</p>');setBusy(false);updateData();
