@@ -1,0 +1,22 @@
+{
+  "checked_at_bangkok": "2026-11-15T15:42:27.154129+07:00",
+  "functional_tests_passed": 17,
+  "model_sample_n": 50,
+  "model_sample_correct": 44,
+  "browser_checks_passed": 6,
+  "qa_database_events": 2,
+  "qa_distinct_images": 2,
+  "filtered_csv_rows": 1,
+  "filtered_csv_category": "Paper",
+  "main_database_events": 0,
+  "pptx_slides": 12,
+  "pptx_package_and_layout": "pass",
+  "pptx_native_powerpoint_test": "not performed",
+  "proposal_pages": 10,
+  "proposal_visual_review": "all pages reviewed after rendering",
+  "slides_visual_review": "all 12 slide PNGs reviewed",
+  "physical_camera": "not tested",
+  "user_testing": "not performed",
+  "customization": "prompt engineering, no weight fine-tuning",
+  "deployment": "localhost only"
+}

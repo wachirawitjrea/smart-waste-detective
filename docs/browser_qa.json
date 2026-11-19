@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:8501",
+  "pages": [
+    "home",
+    "detection",
+    "dashboard"
+  ],
+  "mobileViewport": "390x844",
+  "pageErrors": [],
+  "camera": "not physically tested"
+}

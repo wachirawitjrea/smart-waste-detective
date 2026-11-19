@@ -1,0 +1,7 @@
+{
+  "repo": "omasteam/waste-garbage-management-dataset",
+  "revision": "1022529d853bd0b86025876e3c2daee5d2357235",
+  "seed": 232,
+  "sampling": "10 per folder after seeded shuffle, test only, no training or calibration",
+  "limitations": "Labels inherited from source. Hazardous represents batteries only. Unknown represents biological only. Object grouping inferred from filenames and requires human review."
+}

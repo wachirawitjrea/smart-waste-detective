@@ -1,0 +1,22 @@
+{
+  "category": "Unknown",
+  "candidate": "Unknown",
+  "confidence": 0.7745990753173828,
+  "margin": 0.5720636248588562,
+  "status": "uncertain",
+  "scores": {
+    "Plastic": 0.012338515371084213,
+    "Paper": 0.2025354504585266,
+    "Glass": 0.008513742126524448,
+    "Hazardous": 0.0020132395438849926,
+    "Unknown": 0.7745990753173828
+  },
+  "threshold": 0.65,
+  "margin_threshold": 0.15,
+  "elapsed_ms": 107.6,
+  "model": "openai/clip-vit-base-patch32",
+  "prompt_version": "waste-v1",
+  "image_sha256": "0b5b870493c9602dcb17dd6e0c86c391c437838e2f07580cd47c7afa2479e696",
+  "load_seconds": 18.17262469999696,
+  "note": "Real inference smoke test only. Not model accuracy evaluation. Input is a user-provided design reference image."
+}

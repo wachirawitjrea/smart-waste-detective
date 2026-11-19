@@ -1,0 +1,412 @@
+{
+  "endpoint": "localhost:8504",
+  "status": "pass",
+  "checked_at": "2026-11-15T19:32:22.178Z",
+  "n": 50,
+  "correct": 42,
+  "rows": [
+    {
+      "index": 1,
+      "path": "samples_round2/plastic/plastic_537.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "score_display": "58.7%",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "path": "samples_round2/plastic/plastic_2642.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "score_display": "77.2%",
+      "correct": false
+    },
+    {
+      "index": 3,
+      "path": "samples_round2/plastic/plastic_345.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "score_display": "99.2%",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "path": "samples_round2/plastic/plastic_480.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "score_display": "68.6%",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "path": "samples_round2/plastic/plastic_1634.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "score_display": "54.0%",
+      "correct": false
+    },
+    {
+      "index": 6,
+      "path": "samples_round2/plastic/plastic_2314.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "score_display": "70.7%",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "path": "samples_round2/plastic/plastic_247.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "score_display": "83.1%",
+      "correct": false
+    },
+    {
+      "index": 8,
+      "path": "samples_round2/plastic/plastic_483.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "score_display": "64.4%",
+      "correct": false
+    },
+    {
+      "index": 9,
+      "path": "samples_round2/plastic/plastic_2594.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "score_display": "64.1%",
+      "correct": false
+    },
+    {
+      "index": 10,
+      "path": "samples_round2/plastic/plastic_755.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "score_display": "85.2%",
+      "correct": false
+    },
+    {
+      "index": 11,
+      "path": "samples_round2/paper/paper_2158.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "91.7%",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "path": "samples_round2/paper/paper_1237.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "99.3%",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "path": "samples_round2/paper/paper_2636.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "99.1%",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "path": "samples_round2/paper/paper_1187.jpg",
+      "label": "Paper",
+      "prediction": "Unknown",
+      "score_display": "42.5%",
+      "correct": false
+    },
+    {
+      "index": 15,
+      "path": "samples_round2/paper/paper_2739.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "88.9%",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "path": "samples_round2/paper/paper_2947.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "99.7%",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "path": "samples_round2/paper/paper_642.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "96.7%",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "path": "samples_round2/paper/paper_2850.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "98.9%",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "path": "samples_round2/paper/paper_1078.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "99.0%",
+      "correct": true
+    },
+    {
+      "index": 20,
+      "path": "samples_round2/paper/paper_3025.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "score_display": "86.8%",
+      "correct": true
+    },
+    {
+      "index": 21,
+      "path": "samples_round2/glass/glass_1455.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "path": "samples_round2/glass/glass_4466.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.2%",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "path": "samples_round2/glass/glass_3224.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.3%",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "path": "samples_round2/glass/glass_2456.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "95.5%",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "path": "samples_round2/glass/glass_1431.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.8%",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "path": "samples_round2/glass/glass_3595.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "96.8%",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "path": "samples_round2/glass/glass_3311.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "path": "samples_round2/glass/glass_1836.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "path": "samples_round2/glass/glass_1396.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "90.8%",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "path": "samples_round2/glass/glass_1856.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 31,
+      "path": "samples_round2/battery/battery_604.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "81.4%",
+      "correct": true
+    },
+    {
+      "index": 32,
+      "path": "samples_round2/battery/battery_435.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 33,
+      "path": "samples_round2/battery/battery_250.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "99.8%",
+      "correct": true
+    },
+    {
+      "index": 34,
+      "path": "samples_round2/battery/battery_304.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "99.9%",
+      "correct": true
+    },
+    {
+      "index": 35,
+      "path": "samples_round2/battery/battery_115.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "92.8%",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "path": "samples_round2/battery/battery_10.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "99.2%",
+      "correct": true
+    },
+    {
+      "index": 37,
+      "path": "samples_round2/battery/battery_362.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "100.0%",
+      "correct": true
+    },
+    {
+      "index": 38,
+      "path": "samples_round2/battery/battery_536.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "86.1%",
+      "correct": true
+    },
+    {
+      "index": 39,
+      "path": "samples_round2/battery/battery_487.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "99.4%",
+      "correct": true
+    },
+    {
+      "index": 40,
+      "path": "samples_round2/battery/battery_923.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "score_display": "100.0%",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "path": "samples_round2/biological/biological_20241210_134059.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "68.9%",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "path": "samples_round2/biological/biological_375.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "96.1%",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "path": "samples_round2/biological/biological_476.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "81.3%",
+      "correct": true
+    },
+    {
+      "index": 44,
+      "path": "samples_round2/biological/biological_385.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "90.0%",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "path": "samples_round2/biological/biological_772.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "82.2%",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "path": "samples_round2/biological/biological_497.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "98.2%",
+      "correct": true
+    },
+    {
+      "index": 47,
+      "path": "samples_round2/biological/biological_20241210_152459.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "49.5%",
+      "correct": true
+    },
+    {
+      "index": 48,
+      "path": "samples_round2/biological/biological_934.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "47.7%",
+      "correct": true
+    },
+    {
+      "index": 49,
+      "path": "samples_round2/biological/biological_524.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "97.9%",
+      "correct": true
+    },
+    {
+      "index": 50,
+      "path": "samples_round2/biological/biological_33.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "score_display": "84.5%",
+      "correct": true
+    }
+  ],
+  "csv_events": 50,
+  "csv_download": "self-contained data URI",
+  "page_errors": []
+}

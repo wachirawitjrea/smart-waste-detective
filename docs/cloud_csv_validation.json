@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "deployment": "dpl_C6YtsjeXzMG9VrUqgHBTXXD9wxXd",
+  "source_commit": "0957f6574e07a3fb52dbdc15827152a1fcc33060",
+  "downloaded_bytes": 138,
+  "exact_client_data_match": true,
+  "mechanism": "self-contained data URI; no server media URL",
+  "checked_at": "2026-11-15T19:42:54.487Z"
+}

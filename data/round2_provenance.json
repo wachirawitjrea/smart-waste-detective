@@ -1,0 +1,12 @@
+{
+  "repo": "omasteam/waste-garbage-management-dataset",
+  "revision": "1022529d853bd0b86025876e3c2daee5d2357235",
+  "seed": 233,
+  "downloaded_at": "2026-11-15T19:28:05.472452+00:00",
+  "n": 50,
+  "excluded_original_images": 50,
+  "unique_hashes": 50,
+  "original_hash_overlap": 0,
+  "selection": "Sorted source files, seeded shuffle, first 10 per group after source and SHA-256 exclusions",
+  "limitations": "Same source as round one; source labels; no independent human annotation. Battery-only Hazardous and biological-only Unknown. Not used to tune prompts or thresholds."
+}

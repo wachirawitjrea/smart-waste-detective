@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "python scripts/download_model.py",
+  "functions": {
+    "asgi.py": {
+      "maxDuration": 300,
+      "includeFiles": "{app.py,services/**,config/**,models/**,.streamlit/**}",
+      "excludeFiles": "{docs/**,data/**,tests/**,tmp/**,deliverables/**,.venv/**,.cache/**,assets/**}"
+    }
+  }
+}

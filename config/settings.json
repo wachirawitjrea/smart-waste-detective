@@ -1,0 +1,1 @@
+{"model_id":"openai/clip-vit-base-patch32","threshold":0.65,"margin":0.15,"prompt_version":"waste-v1","threshold_status":"provisional_not_calibrated"}

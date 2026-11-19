@@ -1,0 +1,27 @@
+{
+  "n": 50,
+  "unique_images": 50,
+  "original_image_hash_overlap": 0,
+  "per_class": {
+    "Plastic": 10,
+    "Paper": 10,
+    "Glass": 10,
+    "Hazardous": 10,
+    "Unknown": 10
+  },
+  "correct": 42,
+  "accuracy": 0.84,
+  "macro_f1": 0.8156944199964794,
+  "coverage": 0.7,
+  "browser_uploads": 50,
+  "browser_engine_matches": 50,
+  "csv_events": 50,
+  "javascript_errors": [],
+  "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "categories_sha256": "e3a0dec000a3825b87b727d7b7a0d12998907c3352b32b06f0ff13e3f167d711",
+  "settings_sha256": "d8f0a34b1ffe105f0a97eaececb9e33a339f09a98e1842275b726bf8c993e506",
+  "manifest_sha256": "650c827667559486d79d393b37e0fdf2ed6fc696ec3bb0a6d62c212514a01322",
+  "threshold": 0.65,
+  "margin": 0.15,
+  "scope": "New diagnostic images from the same source; original prompts/thresholds unchanged. No independent field or user validation."
+}

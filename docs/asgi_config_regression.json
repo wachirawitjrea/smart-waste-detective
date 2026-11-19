@@ -1,0 +1,15 @@
+{
+  "scenario": "Host parses Streamlit config in vendored path before importing asgi.py",
+  "before_fix": {
+    "developmentMode": true,
+    "frontend_http_status": 404
+  },
+  "after_fix_local": {
+    "preparsed_developmentMode": true,
+    "resolved_developmentMode": false,
+    "static_assets_present": true,
+    "root_html_status": 200,
+    "health_status": 200
+  },
+  "fix": "Set parsed global.developmentMode=False before st.App construction; retain environment override for early imports"
+}

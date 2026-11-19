@@ -1,0 +1,26 @@
+[project]
+name = "smart-waste-detective"
+version = "1.0.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "streamlit>=1.67,<2",
+    "transformers>=4.45,<5",
+    "torch==2.15.0+cpu",
+    "Pillow>=11,<14",
+    "plotly>=6,<8",
+    "pandas>=2.2,<4",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.vercel]
+entrypoint = "asgi:app"
+
+[tool.vercel.scripts]
+build = "python scripts/download_model.py"

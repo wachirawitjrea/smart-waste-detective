@@ -1,0 +1,21 @@
+const { chromium } = require(process.env.RUNTIME_MODULES + '/playwright');
+const fs = require('fs');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1100}});
+ const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+ await page.goto('http://127.0.0.1:8501');
+ await page.getByRole('button',{name:/เริ่มวิเคราะห์ขยะ/}).waitFor({timeout:30000});
+ await page.screenshot({path:'assets/screenshots/home.png',fullPage:true});
+ await page.getByText('วิเคราะห์ขยะ',{exact:true}).click();
+ await page.getByRole('button',{name:'Analyze Waste',exact:true}).waitFor();
+ await page.screenshot({path:'assets/screenshots/detection.png',fullPage:true});
+ await page.getByText('Dashboard',{exact:true}).click();
+ await page.getByRole('heading',{name:'ภาพรวมการวิเคราะห์'}).waitFor();
+ await page.screenshot({path:'assets/screenshots/dashboard.png',fullPage:true});
+ await page.getByText('หน้าแรก',{exact:true}).click();
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:'assets/screenshots/mobile.png',fullPage:true});
+ fs.writeFileSync('docs/browser_qa.json',JSON.stringify({url:'http://127.0.0.1:8501',pages:['home','detection','dashboard'],mobileViewport:'390x844',pageErrors:errors,camera:'not physically tested'},null,2));
+ await browser.close();
+})();

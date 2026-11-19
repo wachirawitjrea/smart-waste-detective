@@ -1,0 +1,38 @@
+{
+  "project": "smart_waste",
+  "entrypoint": "asgi:app",
+  "url": "https://smartwaste-2plus3.vercel.app",
+  "deployment": "dpl_E9oG5zaHFEkrnjeSxdykjnzMCokb",
+  "source_commit": "991f5ee459a4575a8a4d32da969fa7ba6eb68263",
+  "status": "READY",
+  "cloud50_tested_commit": "5a44f64f2dd1d973b121560174e06d66c88de0c8",
+  "cloud50_count": 50,
+  "cloud50_correct": 42,
+  "cloud50_engine_matches": 50,
+  "cloud50_upload_retries": 0,
+  "cloud_csv_download": true,
+  "large_functions": true,
+  "fluid_compute": true,
+  "persistent_cloud_database": false,
+  "physical_camera_tested": false,
+  "simulated_camera_capture": "passed on final Vercel deployment using fake camera",
+  "documents_uploaded_this_update": false,
+  "website_only_commits": [
+    "0957f6574e07a3fb52dbdc15827152a1fcc33060",
+    "5a44f64f2dd1d973b121560174e06d66c88de0c8",
+    "991f5ee459a4575a8a4d32da969fa7ba6eb68263"
+  ],
+  "checked_at": "2026-11-15T19:56:55.759653+00:00",
+  "final_smoke": "pass",
+  "final_smoke_images": 3,
+  "final_smoke_categories": [
+    "Unknown",
+    "Glass",
+    "Plastic"
+  ],
+  "oversized_replacement_clears_old_image": true,
+  "csv_download": true,
+  "cloud50_deployment": "dpl_A9RDJcir43HCdRWpt9qint5N49Bo",
+  "final_smoke_deployment": "dpl_E9oG5zaHFEkrnjeSxdykjnzMCokb",
+  "test_scope_note": "Full 50-image cloud test used 5a44f64; final 991f5ee changes only invalid-upload clearing and passed targeted production checks."
+}

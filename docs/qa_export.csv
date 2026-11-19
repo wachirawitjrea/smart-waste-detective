@@ -1,0 +1,2 @@
+﻿id,created_at,image_id,category,candidate,confidence,status,source,elapsed_ms,model,prompt_version,threshold,margin_threshold,is_test
+e007371c-8e41-4a3d-ab9b-ea448acb665a,2026-11-15T08:33:20.724287+00:00,ab566c6a01ae33a45d0f93fa02ff174ffc29d3387948f210bd213f0b00c36115,Paper,Paper,0.9936309456825256,classified,อัปโหลดภาพ,79.1,openai/clip-vit-base-patch32,waste-v1,0.65,0.15,0

@@ -1,0 +1,14 @@
+{
+  "pages": 23,
+  "member_slots": 3,
+  "tables": 11,
+  "figures": 7,
+  "color_sample_images": 50,
+  "color_gallery_pages": 5,
+  "black_text_and_tables": true,
+  "all_pages_visually_reviewed": true,
+  "contents_pages_verified": true,
+  "new_test_n": 50,
+  "new_test_correct": 42,
+  "new_test_accuracy": 0.84
+}

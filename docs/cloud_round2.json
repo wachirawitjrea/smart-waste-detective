@@ -1,0 +1,366 @@
+{
+  "status": "pass",
+  "url": "https://smartwaste-2plus3.vercel.app",
+  "deployment": "dpl_A9RDJcir43HCdRWpt9qint5N49Bo",
+  "source_commit": "5a44f64f2dd1d973b121560174e06d66c88de0c8",
+  "checked_at": "2026-11-15T19:52:15.044Z",
+  "n": 50,
+  "correct": 42,
+  "engine_matches": 50,
+  "csv_download": true,
+  "rows": [
+    {
+      "path": "samples_round2/plastic/plastic_537.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_2642.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_345.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/plastic/plastic_480.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/plastic/plastic_1634.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_2314.jpg",
+      "label": "Plastic",
+      "prediction": "Plastic",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/plastic/plastic_247.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_483.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_2594.jpg",
+      "label": "Plastic",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/plastic/plastic_755.jpg",
+      "label": "Plastic",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/paper/paper_2158.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_1237.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_2636.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_1187.jpg",
+      "label": "Paper",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": false
+    },
+    {
+      "path": "samples_round2/paper/paper_2739.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_2947.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_642.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_2850.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_1078.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/paper/paper_3025.jpg",
+      "label": "Paper",
+      "prediction": "Paper",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_1455.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_4466.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_3224.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_2456.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_1431.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_3595.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_3311.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_1836.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_1396.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/glass/glass_1856.jpg",
+      "label": "Glass",
+      "prediction": "Glass",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_604.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_435.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_250.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_304.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_115.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_10.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_362.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_536.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_487.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/battery/battery_923.jpg",
+      "label": "Hazardous",
+      "prediction": "Hazardous",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_20241210_134059.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_375.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_476.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_385.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_772.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_497.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_20241210_152459.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_934.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_524.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    },
+    {
+      "path": "samples_round2/biological/biological_33.jpg",
+      "label": "Unknown",
+      "prediction": "Unknown",
+      "engine_match": true,
+      "correct": true
+    }
+  ],
+  "retries": [],
+  "page_errors": [],
+  "storage": "Temporary instance SQLite; cloud export is not asserted to contain all 50 events across sessions"
+}

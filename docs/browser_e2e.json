@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "action": "real upload and inference",
+      "label": "Paper",
+      "path": "samples/paper/paper_1875.jpg",
+      "status": "pass"
+    },
+    {
+      "action": "real upload and inference",
+      "label": "Hazardous",
+      "path": "samples/battery/battery_268.jpg",
+      "status": "pass"
+    },
+    {
+      "action": "populated dashboard after actual inference",
+      "status": "pass"
+    },
+    {
+      "action": "category filter and CSV download",
+      "status": "pass"
+    },
+    {
+      "action": "camera widget rendered",
+      "status": "pass",
+      "note": "No physical camera capture or permissions tested"
+    },
+    {
+      "action": "390px viewport without page horizontal overflow",
+      "status": "pass"
+    }
+  ],
+  "pageErrors": [],
+  "database": "isolated QA database",
+  "screenshotNote": "dashboard_data and result screenshots are real QA sessions, not live recycling activity"
+}

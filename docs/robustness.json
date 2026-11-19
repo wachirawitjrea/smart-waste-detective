@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "category": "Unknown",
+      "candidate": "Glass",
+      "confidence": 0.551267683506012,
+      "margin": 0.23927316069602966,
+      "status": "uncertain",
+      "scores": {
+        "Plastic": 0.3119945228099823,
+        "Paper": 0.03269660472869873,
+        "Glass": 0.551267683506012,
+        "Hazardous": 0.023864153772592545,
+        "Unknown": 0.08017712086439133
+      },
+      "threshold": 0.65,
+      "margin_threshold": 0.15,
+      "elapsed_ms": 97.1,
+      "model": "openai/clip-vit-base-patch32",
+      "prompt_version": "waste-v1",
+      "case": "blurred_plastic",
+      "kind": "derived diagnostic input, not a new independent test sample"
+    },
+    {
+      "category": "Glass",
+      "candidate": "Glass",
+      "confidence": 0.6749324798583984,
+      "margin": 0.36896735429763794,
+      "status": "classified",
+      "scores": {
+        "Plastic": 0.01573312282562256,
+        "Paper": 0.0016143769025802612,
+        "Glass": 0.6749324798583984,
+        "Hazardous": 0.0017549115000292659,
+        "Unknown": 0.3059651255607605
+      },
+      "threshold": 0.65,
+      "margin_threshold": 0.15,
+      "elapsed_ms": 100.3,
+      "model": "openai/clip-vit-base-patch32",
+      "prompt_version": "waste-v1",
+      "case": "multiple_objects",
+      "kind": "derived diagnostic input, not a new independent test sample"
+    },
+    {
+      "category": "Unknown",
+      "candidate": "Unknown",
+      "confidence": 0.4517298936843872,
+      "margin": 0.18440458178520203,
+      "status": "uncertain",
+      "scores": {
+        "Plastic": 0.06849537044763565,
+        "Paper": 0.2673253118991852,
+        "Glass": 0.0710410326719284,
+        "Hazardous": 0.14140839874744415,
+        "Unknown": 0.4517298936843872
+      },
+      "threshold": 0.65,
+      "margin_threshold": 0.15,
+      "elapsed_ms": 58.0,
+      "model": "openai/clip-vit-base-patch32",
+      "prompt_version": "waste-v1",
+      "case": "no_waste_blank",
+      "kind": "derived diagnostic input, not a new independent test sample"
+    }
+  ],
+  "sensitivity": [
+    {
+      "threshold": 0.5,
+      "margin": 0.15,
+      "accuracy": 0.9,
+      "coverage": 0.78
+    },
+    {
+      "threshold": 0.65,
+      "margin": 0.15,
+      "accuracy": 0.88,
+      "coverage": 0.74
+    },
+    {
+      "threshold": 0.8,
+      "margin": 0.15,
+      "accuracy": 0.76,
+      "coverage": 0.6
+    }
+  ],
+  "note": "Exploratory rescoring of same diagnostic test set. No threshold selection or calibration. Production settings remain 0.65 / 0.15."
+}

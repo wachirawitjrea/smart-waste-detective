@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {classify} from '../src/classify.js';
+import {csv} from '../src/storage.js';
+const config={text_features:[[1,0],[0,1],[-1,0]],labels:['Plastic','Glass','Unknown'],logit_scale:100,settings:{threshold:.65,margin:.15}};
+test('strong known category accepted; stable softmax at large logit scale',()=>{const result=classify([10,0],{...config,logit_scale:100000});assert.equal(result.category,'Plastic');assert.equal(result.confidence,1);});
+test('ambiguous materials return Unknown instead of inventing certainty',()=>{const result=classify([1,1],config);assert.equal(result.category,'Unknown');assert.equal(result.candidate,'Plastic');assert.equal(result.status,'uncertain');});
+test('strong out-of-scope category still returns Unknown',()=>{const result=classify([-1,0],config);assert.equal(result.category,'Unknown');assert.equal(result.candidate,'Unknown');});
+test('zero and wrong-dimensional features are rejected',()=>{assert.throws(()=>classify([0,0],config));assert.throws(()=>classify([1],config));});
+test('CSV preserves Thai, quotes and line breaks and neutralizes spreadsheet formulas',()=>{const output=csv([{id:'=HYPERLINK("bad")',category:'แก้ว,"ใส"\nขวด'}]);assert.ok(output.startsWith('\ufeff'));assert.ok(output.includes("'="));assert.ok(output.includes('แก้ว,""ใส""\nขวด'));});

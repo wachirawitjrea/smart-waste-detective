@@ -1,0 +1,12 @@
+{
+  "url": "https://smartwaste-2plus3.vercel.app",
+  "deployment": "dpl_DbyALrj9QJbgJW2Qn1J6Y13Zq59V",
+  "source_commit": "1404af9580bc30564cd159b0ce3e129fe5acbf64",
+  "sample": "paper_1875.jpg",
+  "prediction": "Paper",
+  "is_test": true,
+  "history_csv": true,
+  "page_errors": [],
+  "checked_at": "2026-11-15T19:26:55.267Z",
+  "storage": "temporary SQLite instance"
+}

@@ -1,0 +1,9 @@
+{
+  "endpoint": "http://127.0.0.1:8503",
+  "entrypoint": "asgi:app",
+  "sample": "paper_1875.jpg",
+  "prediction": "Paper",
+  "history": true,
+  "page_errors": [],
+  "checked_at": "2026-11-15T14:05:54.860Z"
+}
