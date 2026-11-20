@@ -2,7 +2,11 @@ import {AutoProcessor,CLIPVisionModelWithProjection,RawImage,env} from '@hugging
 import {classify} from './classify.js';
 
 env.allowLocalModels = false;
-env.useBrowserCache = true;
+env.useBrowserCache = typeof caches !== 'undefined';
+if (import.meta.env.PROD) {
+  env.remoteHost = `${self.location.origin}/`;
+  env.remotePathTemplate = 'model-assets/{model}/resolve/{revision}/';
+}
 
 if (!env.backends) env.backends = {};
 if (!env.backends.onnx) env.backends.onnx = {};
@@ -42,7 +46,7 @@ function load(config){
     }),
   ]).catch(error=>{
     session=null;
-    throw error;
+    throw new Error(`โหลดโมเดล AI ไม่สำเร็จ (${error.message})`,{cause:error});
   });
   return session;
 }

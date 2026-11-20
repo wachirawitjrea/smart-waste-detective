@@ -1,12 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "waste-detective",
-  "compatibility_date": "2026-11-16",
+  "name": "restless-brook-d990",
+  "main": "cloudflare/worker.js",
+  "compatibility_date": "2026-11-19",
   "workers_dev": true,
   "build": {"command": "node node_modules/vite/bin/vite.js build --config cloudflare/vite.config.js"},
   "assets": {
     "directory": "./cloudflare/dist",
     "not_found_handling": "single-page-application",
-    "run_worker_first": false
+    "binding": "ASSETS",
+    "run_worker_first": ["/model-assets/*"]
   }
 }
